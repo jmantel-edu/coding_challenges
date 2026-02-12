@@ -5,5 +5,5 @@ function oneToFive() {
         document.getElementById("result").innerHTML += i;
         document.getElementById("result").innerHTML += "<br>";
         i += 1;
-    } while (i <= 5);
+    } while (i <= 6);
 }

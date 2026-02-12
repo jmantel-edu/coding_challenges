@@ -5,6 +5,6 @@ from math import prod
 
 def factorial(n: int):
     numbers = [i for i in range(n, 1, -1)]
-    return prod(numbers)
+    return sum(numbers)
 
 print(factorial(int(input("Enter an integer: "))))
